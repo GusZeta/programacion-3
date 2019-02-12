@@ -1,0 +1,11 @@
+C:\Users\Estudiante\programacion-3\opraciones\opraciones\obj\Debug\netcoreapp2.1\opraciones.csprojAssemblyReference.cache
+C:\Users\Estudiante\programacion-3\opraciones\opraciones\obj\Debug\netcoreapp2.1\opraciones.csproj.CoreCompileInputs.cache
+C:\Users\Estudiante\programacion-3\opraciones\opraciones\obj\Debug\netcoreapp2.1\opraciones.AssemblyInfoInputs.cache
+C:\Users\Estudiante\programacion-3\opraciones\opraciones\obj\Debug\netcoreapp2.1\opraciones.AssemblyInfo.cs
+C:\Users\Estudiante\programacion-3\opraciones\opraciones\bin\Debug\netcoreapp2.1\opraciones.deps.json
+C:\Users\Estudiante\programacion-3\opraciones\opraciones\bin\Debug\netcoreapp2.1\opraciones.runtimeconfig.json
+C:\Users\Estudiante\programacion-3\opraciones\opraciones\bin\Debug\netcoreapp2.1\opraciones.runtimeconfig.dev.json
+C:\Users\Estudiante\programacion-3\opraciones\opraciones\bin\Debug\netcoreapp2.1\opraciones.dll
+C:\Users\Estudiante\programacion-3\opraciones\opraciones\bin\Debug\netcoreapp2.1\opraciones.pdb
+C:\Users\Estudiante\programacion-3\opraciones\opraciones\obj\Debug\netcoreapp2.1\opraciones.dll
+C:\Users\Estudiante\programacion-3\opraciones\opraciones\obj\Debug\netcoreapp2.1\opraciones.pdb
