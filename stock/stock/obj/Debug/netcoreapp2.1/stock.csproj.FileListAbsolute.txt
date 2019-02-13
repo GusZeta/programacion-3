@@ -1,0 +1,11 @@
+C:\Users\Estudiante\programacion-3\stock\stock\bin\Debug\netcoreapp2.1\stock.deps.json
+C:\Users\Estudiante\programacion-3\stock\stock\bin\Debug\netcoreapp2.1\stock.runtimeconfig.json
+C:\Users\Estudiante\programacion-3\stock\stock\bin\Debug\netcoreapp2.1\stock.runtimeconfig.dev.json
+C:\Users\Estudiante\programacion-3\stock\stock\bin\Debug\netcoreapp2.1\stock.dll
+C:\Users\Estudiante\programacion-3\stock\stock\bin\Debug\netcoreapp2.1\stock.pdb
+C:\Users\Estudiante\programacion-3\stock\stock\obj\Debug\netcoreapp2.1\stock.csprojAssemblyReference.cache
+C:\Users\Estudiante\programacion-3\stock\stock\obj\Debug\netcoreapp2.1\stock.csproj.CoreCompileInputs.cache
+C:\Users\Estudiante\programacion-3\stock\stock\obj\Debug\netcoreapp2.1\stock.AssemblyInfoInputs.cache
+C:\Users\Estudiante\programacion-3\stock\stock\obj\Debug\netcoreapp2.1\stock.AssemblyInfo.cs
+C:\Users\Estudiante\programacion-3\stock\stock\obj\Debug\netcoreapp2.1\stock.dll
+C:\Users\Estudiante\programacion-3\stock\stock\obj\Debug\netcoreapp2.1\stock.pdb
