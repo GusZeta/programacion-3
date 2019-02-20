@@ -33,29 +33,25 @@ namespace ConsoleApp6
             var consulta5 = from alm in alumnos
                             group alm by alm.edad into edad
                             select edad;
-            foreach (var GrupoEdades in consulta5)
-            {
-                Console.WriteLine(GrupoEdades.Key);
-                foreach (persona alum in GrupoEdades)
-                {
-                    Console.WriteLine("{0} {1}", alum.nombre, alum.apellido);
-                }
-            }
-            Console.WriteLine("*********************************************************");
+           
             var consulta7 = from alm in alumnos
                             group alm by alm.edad  into edad
                             select new {Edad= edad.Key, Cantidad = edad.Count()};
-            foreach (var grupoedad in consulta7)
-            {
-                Console.WriteLine("{0} {1}", grupoedad.Edad, grupoedad.Cantidad);
-            }
-            Console.WriteLine("*********************************************************");
             var consulta8 = from alm in alumnos
                             orderby alm.apellido, alm.apellido descending
                             select alm;
             foreach (var grupoapellido in consulta8)
             {
-               
+                Console.WriteLine("{0} {1}", grupoapellido.nombre, grupoapellido.apellido);
+            }
+            Console.WriteLine("*********************************************************");
+            var consulta12 = from alm in alumnos
+                            where alm.edad > 18 && alm.sexo=="masculino"
+                            orderby alm.edad,alm.sexo
+                             select alm;
+            foreach (var grupe in consulta12)
+            {
+                Console.WriteLine("{0} {1} {2}", grupe.nombre, grupe.edad, grupe.sexo);
             }
             Console.WriteLine("*********************************************************");
             var consulta9 = from alm in alumnos
@@ -77,6 +73,15 @@ namespace ConsoleApp6
             {
                 Console.WriteLine("{0} {1}", gruposexo.Sexo, gruposexo.Cantidad);
             }
+            Console.WriteLine("*********************************************************");
+            var consulta11 = from alm in alumnos
+                             group alm by alm.sexo into sexos
+                             select new { Sexo = sexos.Key, Promedio = sexos.Average(pe => pe.edad) };
+            foreach (var gp in consulta11)
+            {
+                Console.WriteLine("{0} {1}", gp.Sexo, gp.Promedio);
+            }
+
             Console.ReadKey();
         }                   
     }
