@@ -32,7 +32,7 @@ namespace Cola
             }
             else
             {
-                Console.WriteLine("La cola esta vacia");
+                Console.WriteLine("La  cola esta vacia");
                 return arreglo[frente];
             }
         }
