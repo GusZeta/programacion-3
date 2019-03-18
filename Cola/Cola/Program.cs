@@ -22,6 +22,7 @@ namespace Cola
                 Console.WriteLine("3. Mostrar");
                 Console.WriteLine("4. Salir");
                 Console.WriteLine("Elegir una opcion");
+                opcion = int.Parse(Console.ReadLine());
                 switch (opcion)
                 {
                     case 1:
