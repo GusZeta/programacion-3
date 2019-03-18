@@ -8,13 +8,13 @@ namespace eventostarea
 {
     public class multiplo
     {
-        public delegate void Delegado(int n); // lafirma del deleado debe ocnincidir con la del Manejador de eventod
-        public event Delegado CuandoRecibaMultiplotres; //evento aqui se suscriben lo manejadores de eventos 
+        public delegate void Delegado(int n); 
+        public event Delegado CuandoRecibaMultiplotres; 
         public int Sumar(int x)
         {
             int iSuma = 0;
             
-            if ((iSuma % 3 == 0) && (CuandoRecibaMultiplotres != null)) // cuando ocurre el evento de sermultiplo de 5 tenemos que llamar a evento para dispare enlos suscriptores
+            if ((iSuma % 3 == 0) && (CuandoRecibaMultiplotres != null)) 
             { CuandoRecibaMultiplotres(iSuma); }
             return iSuma;
         }
