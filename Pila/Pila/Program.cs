@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Pila
@@ -12,6 +13,8 @@ namespace Pila
         {
             Boolean salir = false;
             Pila<int> p= new Pila<int>();
+            Thread hilo = new Thread(new ThreadStart(calcular));
+            hilo.Start();
             int opcion = 0;
             int x = 0;
             while (salir != true)
@@ -46,6 +49,17 @@ namespace Pila
                 Console.ReadKey();
             }
             Console.ReadKey();
+        }
+        public static void calcular()
+        {
+            int sumatoria = 0;
+            for (int i = 1; i <= 1000; i++)
+            {
+                sumatoria = i;
+
+
+            }
+            Console.WriteLine("La sumatoria es: " + sumatoria);
         }
     }
 }

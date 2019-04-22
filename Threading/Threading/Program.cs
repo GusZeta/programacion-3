@@ -32,7 +32,7 @@ public class ThreadExample
                 return factorial(n - 1) * n;
             }
         }
-        public void facto()
+        public static void facto()
         {
             Console.WriteLine("Intriduzca el valor de n");
             int n = int.Parse(Console.ReadLine());
