@@ -49,7 +49,7 @@ namespace servidorchat
                     mensajes.Add(data);
                     foreach (String cadena in mensajes)
                     {
-                        byte[] msg = Encoding.ASCII.GetBytes(cadena);
+                        byte[] msg = Encoding.ASCII.GetBytes(cadena+"-");
                         handler.Send(msg);
                     }
                     
