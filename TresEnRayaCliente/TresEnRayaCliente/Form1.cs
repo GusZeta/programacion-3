@@ -186,7 +186,7 @@ namespace TresEnRayaCliente
             return null;
 
         }
-        //"192.168.50.84"
+        
         private void pb01_Click(object sender, EventArgs e)
         {
             Solicitud = "0,1," + marca;
