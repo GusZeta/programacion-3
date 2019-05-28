@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<TextView
+		android:text="Introduzca A"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:id="@+id/lbla" />
+	<EditText
+		android:layout_width="wrap_content"
+		android:layout_height="74.0dp"
+		android:layout_toRightOf="@id/lbla"
+		android:id="@+id/lblA" />
+	<TextView
+		android:text="Introduzca B"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/lbla"
+		android:id="@+id/lblB" />
+	<EditText
+		android:layout_width="wrap_content"
+		android:layout_height="64.0dp"
+		android:layout_below="@id/lblB"
+		android:id="@+id/editText1" />
+	<Button
+		android:text="Button"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_toLeftOf="@id/editText1"
+		android:id="@+id/button1" />
+	<Button
+		android:text="Button"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/editText1"
+		android:id="@+id/btncalcular" />
+	<TextView
+		android:text="Large Text"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_toLeftOf="@id/editText1"
+		android:id="@+id/txtResultado" />
+	<TextView
+		android:text="Large Text"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_toLeftOf="@id/txtResultado"
+		android:id="@+id/txtResultado" />
+	<TextView
+		android:text="Large Text"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/btncalcular"
+		android:id="@+id/txtResultado" />
+</RelativeLayout>
