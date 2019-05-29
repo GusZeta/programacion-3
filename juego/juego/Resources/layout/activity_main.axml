@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	<TextView
+		android:text="Introduzca letra"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:id="@+id/lblIntroduzca" />
+	<EditText
+		android:layout_width="wrap_content"
+		android:layout_height="43.0dp"
+		android:layout_below="@id/lblIntroduzca"
+		android:id="@+id/txtLetra"
+		android:layout_marginBottom="25.0dp" />
+	<Button
+		android:text="Enviar Letra"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/txtLetra"
+		android:id="@+id/btnEnviar" />
+	<TextView
+		android:text="-"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/btnEnviar"
+		android:id="@+id/lblLetra" />
+	<TextView
+		android:text="Introduzca palabra"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/lblLetra"
+		android:id="@+id/lblIntP" />
+	<EditText
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/lblIntP"
+		android:id="@+id/txtPalabra" />
+	<Button
+		android:text="Enviar Palabra"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/txtPalabra"
+		android:id="@+id/btnpalabra" />
+	<ImageView
+		android:src="@android:drawable/ic_menu_gallery"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/btnpalabra"
+		android:id="@+id/imag" />
+</RelativeLayout>
