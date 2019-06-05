@@ -21,7 +21,7 @@ namespace juego
         private String Guiones;
         private static ahorcado Instancia;
         private ahorcado()
-        { //singleton
+        { 
             Iniciar();
         }
         public void Iniciar()
