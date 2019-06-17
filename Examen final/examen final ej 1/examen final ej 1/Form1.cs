@@ -75,7 +75,7 @@ namespace examen_final_ej_1
         private void btnmostrar_Click(object sender, EventArgs e)
         {
             Parqueo parq = new Parqueo();
-            parq.GetMotos();
+            lstconsultas.Items.Add(parq.GetMotos());
         }
     }
 }
